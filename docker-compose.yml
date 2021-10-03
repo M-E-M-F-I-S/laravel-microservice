@@ -36,7 +36,7 @@ services:
       MYSQL_DATABASE: microservice
       MYSQL_USER: ${DB_USERNAME:-aldmi}
       MYSQL_PASSWORD: ${DB_PASSWORD:-aldmi}
-      MYSQL_ROOT_PASSWORD: 'secret'
+      MYSQL_ROOT_PASSWORD: secret
       MYSQL_ROOT_HOST: "%"
     volumes:
       - aldmi-app-mysql-data:/var/lib/mysql
